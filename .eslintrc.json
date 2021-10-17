@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base/legacy",
+        "plugin/coffee:disable-incompatible"
+    ],
+    "parser": "eslint-plugin-coffee",
+    "parserOptions": {
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": ["coffee"],
+    "rules": {
+        "plugin": "coffee/eslint-recommended"
+    }
+}
